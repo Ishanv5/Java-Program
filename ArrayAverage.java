@@ -2,7 +2,7 @@
 import java.util.Scanner;
 class ArrayAverage {
     public static void main(String[] args) {
-        int a[]=new int[5]; int sum=0,avg;
+        int a[]=new int[5]; int sum=0;double avg;
         Scanner r=new Scanner(System.in);
         System.out.print(" Enter element of array ");
         for(int i=0;i<a.length;i++)
