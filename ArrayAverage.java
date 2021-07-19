@@ -16,7 +16,7 @@ class ArrayAverage {
              sum=sum+a[i];
         }
         System.out.print(" Addition " + sum);
-        avg=sum/5;
+        avg=sum/5.0;
         System.out.print(" Average of Array element " + avg);
     }
 }
