@@ -18,7 +18,7 @@ class Cons
     Cons(double y,String z)
     {
          b=y;
-         c=c;
+         c=z;
     }
    
 }
