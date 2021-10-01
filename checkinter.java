@@ -9,7 +9,7 @@ class SellerHarsh implements CustomerIshan
     @Override
     public void purchase()
     {
-        System.out.println(" Ishan needs "+amt+" Software ");
+        System.out.println(" Ishan needs "+amt+" Software from  Seller  Harsh ");
     }
 }
 class checkinter
