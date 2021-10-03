@@ -12,6 +12,7 @@ class B extends A
     @Override 
    B show()
    {
+   super.show();
     System.out.println(" Learn coding skill  with  Ishan ");
     return this;
    }
