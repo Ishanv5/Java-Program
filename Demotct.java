@@ -9,8 +9,15 @@ class Demotct
             Thread.sleep(1000);
         }
     }
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args)  {
+        try{
         Wait(); 
+        System.out.println(10/0);
+        }
+        catch(Exception e)
+        {
+            System.out.println(" Exception Handled ");
+        }
         System.out.println(" main method ended ");
     }
 }
