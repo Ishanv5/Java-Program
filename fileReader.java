@@ -5,18 +5,18 @@ class fileReader
     public static void main(String[] args)  {
         try
         {
-        FileReader r=new FileReader("C:\\Users\\ishan\\Desktop\\filehandling\\I.txt ");
+       FileInputStream b=new FileInputStream("C:\\Users\\ishan\\Desktop\\filehandling\\I.txt ");
         try
         {
             int i;
-            while((i=r.read())!=-1)
+            while((i=b.read())!=-1)
             {
                 System.out.println((char)i);
             }
         }
         finally
         {
-            r.close();
+            b.close();
         }
         }
         catch(IOException e)
